@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="th.ac.mahidol.ra.cd.LanguageScreening" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="App">
+        <param name="android-package" value="org.apache.cordova.App" />
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="FileTransfer">
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <name>ประเมินภาษาของเด็กเล็ก</name>
+    <description>
+        แอพพลิเคชันนี้พัฒนาขึ้น เพื่อช่วยเหลือครอบครัวของเด็กวัยหัดพูดที่สงสัยว่ามีภาษาล่าช้า 
+โดยใช้สำหรับตรวจคัดกรองภาษาและให้คำแนะนำเบื้องต้น
+    </description>
+    <author email="Ton.Preecha29@gmail.com" href="http://cd.ra.mahidol.ac.th">
+        Computer Engineering, King Mongkut's University of Technology Thonburi & Ramathibodi Hospital
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
